@@ -1,0 +1,19 @@
+
+php_value memory_limit 196M
+php_value upload_max_filesize 4096M
+php_flag display_errors On
+php_flag html_errors On
+php_flag log_errors On
+php_value error_reporting "E_ALL && ~E_NOTICE"
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /copycenter/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /copycenter/index.php [L]
+</IfModule>
+
+# END WordPress
