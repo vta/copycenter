@@ -13,6 +13,11 @@
 !/wp-content/themes/
 !/wp-content/themes/customizr-pro-child/*
 !/wp-content/themes/customizr-pro-child/woocommerce/*
+/wp-content/plugins
+/wp-content/uploads
+index.php
+**.log
+/wp-content/themes/customizr-pro
 
 
 

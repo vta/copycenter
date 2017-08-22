@@ -10,4 +10,24 @@ Version: 2.0.5.1502999199
 Updated: 2017-08-17 19:46:39
 
 */
+.woocommerce-product-gallery--without-images,
+.woocommerce-product-gallery--with-images {
+    display: none;
+}
 
+.woocommerce #content div.product div.summary,
+.woocommerce div.product div.summary,
+.woocommerce-page #content div.product div.summary,
+.woocommerce-page div.product div.summary {
+    display: inline-block;
+    text-align: left;
+    position: relative;
+    float: none;
+    width: auto;
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs {
+    display: none;
+}
+.woocommerce-Tabs-panel--description h2 {
+    display: none;
+}
