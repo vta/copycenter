@@ -31,3 +31,38 @@ Updated: 2017-08-17 19:46:39
 .woocommerce-Tabs-panel--description h2 {
     display: none;
 }
+.woocommerce ul.products li.product .button {
+    display: none;
+}
+h2.woocommerce-loop-product__title {
+    text-align: center;
+    font-size: 24pt !important;
+}
+.ginput_container input,
+.ginput_container_text input,
+.ginput_container_number input,
+.ginput_container_radio input,
+.ginput_container_textarea textarea {
+    height: 24pt;
+    font-size: 14pt !important;
+}
+.ginput_container_radio label {
+    font-size: 14pt !important;
+}
+.woocommerce-product-details__short-description p {
+    font-size: 18pt;
+}
+.page-description p {
+    font-size: 14pt;
+}
+.woocommerce-ordering,
+.woocommerce-result-count {
+    display: none;
+}
+.woocommerce-MyAccount-navigation,
+.woocommerce-MyAccount-content {
+    font-size: 14pt;
+}
+.gfield_description {
+    font-size: 12pt !important;
+}
