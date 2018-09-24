@@ -43,12 +43,13 @@ function my_custom_fp_links( $original_link , $fp_id ) {
 	//assigns a custom link by page id
 	$custom_link = array(
 		//page id => 'Custom link'
-		59 => 'https://newswheel.vta.org/category/headways/',
-		29 => 'https://newswheel.vta.org/category/from-the-hub/',
-		129 => 'https://newswheel.vta.org/category/announcements/',
-		25 => 'https://newswheel.vta.org/category/safety/'
-	);
+//	59 => 'https://newswheel.vta.org/category/headways/',
+//	29 => 'https://newswheel.vta.org/category/from-the-hub/',
+//	129 => 'https://newswheel.vta.org/category/announcements/',
+//	25 => 'https://newswheel.vta.org/category/safety/'
+//	);
 
+/*
 	foreach ($custom_link as $page_id => $link) {
 		if ( get_permalink($page_id) == $original_link )
 			return $link;
